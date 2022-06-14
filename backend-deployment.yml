@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: cavanosa/backend:latest
+        image: georgegxx/backend:latest
         ports:
         - containerPort: 8080
         env:
